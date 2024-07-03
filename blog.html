@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Lakshya - Blog</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+        <link rel="stylesheet" href="assets/css/Ustyle.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+		<link rel="shortcut icon" type="image/png" href="favicon.png">
+    </head>
+
+    <style type="text/css">
+        .row, .row a:hover {
+            cursor: url('data:image/x-icon;base64,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'), auto; 
+            }
+        
+        a:hover{	
+            cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmuI7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABjt4z/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI/ctv8AAAAAaLaS/wAAAAAAAAAAAAAAAAAAAAAAAAAAFjIlWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVHRlg2a4jv9muY//ZriO/2a4jv8AAAAAAAAAAAAAAABSmnb/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGrh/9vu5b/j9y2/2G1i/8AAAAAUpp2/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI3es/8AAAAAAAAAAAAAAAAAAAAAZriO/2a4jv9Tmnb/9vb2/4W4n+tYbmOMAAAAAPX29v+P3bT/ZriO/wAAAABetIn/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGS1kf8AAAAAAAAAAAAAAAAAAAAAj9y2/1Wbd/9Smnb/abmR/wAAAACP3bf/XaiD/1Kadv9ouY//Upp2/2a4jv9muI7/ZbiO/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI7btf8AAAAAZbWQ/wAAAAAAAAAAj9y2/4fSrv9Smnb/T5p1/1Kbdf/09vb/jdu2/1qzhf9muI7/9vb2/yEwKUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAj9y1/2S4jv9yxJr/AAAAAAAAAAAAAAAAUpp2/wAAAAAAAAAAj9y2/4/ctf/49vX/j9y3/5Dctv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZriO/1Kadv9Tm3f/AAAAAAAAAABhpYX/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABluI7/Y7eP/wAAAAAUGxcijdq7/4/ctv9btZD/AAAAAAAAAAAAAAAAWXNlkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI/ctv8AAAAAAAAAAAAAAAAAAAAAe8mh/1Kadv9Smnb/j9y2/5Ddt/9muI7/AAAAAAAAAACf0L7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjty2/2a4jv8lLyk0AAAAAAAAAAAAAAAAUpp2/wAAAABSmnb/DhMRGVKadv+P3Lb/9/X4/wAAAABkspT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwQEBgAAAAAAAAAAj9y2/5Pgu/8AAAAAAAAAAAAAAABQmXj/AAAAAI/ctv8AAAAAj9y2/4/ctv93xp7/kNy2/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmuI7/YrmN/wAAAAAAAAAAZreQ/47btf8AAAAAUpt1/1Kadv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgsJDQgMCg8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI/ctv9muI7/ZrWR/wAAAACP3Lb/Upp2/6nWwv8AAAAAUpx4/1Kadv9muI7/ZriO/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAitex+VOadv9ouI7/AAAAAAAAAAAAAAAAAAAAAAAAAACP3Lb/kde1/0uWcv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACR27f/Z7mP/4/ctv9mt4v/AAAAAEGSav8AAAAAAAAAAAAAAACQ3bX/jt22/1Kadv8uYEmLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGe4jP8AAAAAAAAAAAAAAABuv5j/ZriO/2a4jv9nto3/AAAAAI/ctv/7+/z/ZriO/wAAAAAAAAAAAAAAAGe4jf9muI7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZriO/wAAAAAAAAAAAAAAAAAAAACR3rj/Upp2/1Kadv8AAAAAU5p2/4/ctv9muI7/l82x/wAAAAAAAAAAAAAAAGO3j/8AAAAAaLiN/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABluI7/ZriO/2W4jv8AAAAAAAAAAI/ct/9Tm3f/AAAAAAAAAACP3Lb/WaV//4/ctv9muI7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI/ctv+P3Lb/j9y2/1+2iP9mt43/AAAAADNhTaYAAAAAAAAAAAAAAACP3Lb/aLiP/2a4jv8mSzlsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI7ctf9QnHf/ZriO/wAAAABJmm//j9y2/4/ctv8AAAAAAAAAAAAAAACE1Kr/j9y2/2a4jv9kt4//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIfcsf9muI7/ZriO/2a4jv8AAAAAAAAAAI7ct/9Zon7/Upp2/wAAAABUm3f/j9y2/wAAAAAAAAAAAAAAAAAAAAAAAAAAdsae/2W3jf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI/ctv+Q3Lf/UZt3/4/ctv9ktYz/AAAAAJLbtP8AAAAAAAAAAAAAAABSmnb/Bg0KFGa4jv8AAAAAAAAAAAAAAAAAAAAAAAAAAFuig+sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjta4/wAAAABnuY//j9y2/1SZdf9gtoz/Upp2/wAAAABmuI7/AAAAAI/ctv9Smnb/ZriO/wYKCA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE6Wdf8AAAAAj9y2/2a4jv8AAAAAAAAAAI7cuf9ktoz/ZriO/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZ7mP/2a4jv99vqL/AAAAAIjasP+U4Lr/ZrWP/wAAAAAAAAAAAAAAAI/ctv9muI7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFOad/9muI7/ZLaO/wAAAAAAAAAAAAAAAJPfuv9muI7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQmJVc4/bt/+P3Lb/kt+5/2a4jv8AAAAAAAAAAAAAAAAAAAAAj9y1/2i6kP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGa4jv+P3Lb/AAAAAAAAAACN3LT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAi9y0/2e5j/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///////7/////f////1////8Hf///wv//+8CL//3hAP/+sAP//jsH//8b///5jv//+8Df//nqL//86h//5k///+Ih///j4///4XD//3COf/94h1//GYf//wXH//+I4f/wxPn/+C6+//oKP///0x///iOf//xz///w8///zfn//8='), auto;
+            }
+        
+        .col-md-9{
+            color: black;
+        }
+
+        .blog-icon{
+            color: black;
+        }
+    </style>
+
+    <body style="background-color: white;">
+        <div class="nav-bar">
+            <a class="active" href="blog.html">Blog</a>
+            <a href="team.html"">Team</a>
+            <a href="index.html">Home</a>      
+            <img src="assets/img/logo.png" width="60" height="60">        
+        </div>
+
+        <div class="blog-home">
+            <br>
+            <h1> Welcome to our Blog.</h1>
+
+            <div class="row">
+                <div class="col-md-6 blog-box wow fadeInLeft">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="blog-box-image">
+                                <img src="assets/img/blog/1.jpeg" alt="" data-at2x="assets/img/blog/1.jpeg">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <h3><a href="b1.html">Hydroponics<i class="fas fa-angle-right"></i></h3>
+                            <div class="blog-icon"><i class="far fa-calendar"></i> 20 December 2020</div>
+                            <div class="blog-icon"><i class="far fa-user"></i> Ujwal R</div>
+                            <p>
+                                Hydroponics is a farming technique that uses less water than traditional agriculture (almost 95 % less).
+                                This method....
+                            </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 blog-box wow fadeInLeft">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="blog-box-image">
+                                <img src="assets/img/blog/2.jpg" alt="" data-at2x="assets/img/blog/2.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <h3><a href="#">Sed do eiusmod tempor</a> <i class="fas fa-angle-right"></i></h3>
+                            <div class="blog-box-date"><i class="far fa-calendar"></i> 13 August 2018</div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            
+            <!-- <div class="row">
+                <div class="col-md-6 blog-box wow fadeInLeft">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="blog-box-image">
+                                <img src="assets/img/blog/3.jpg" alt="" data-at2x="assets/img/blog/3.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <h3><a href="#">Quis nostrud exerci tat</a> <i class="fas fa-angle-right"></i></h3>
+                            <div class="blog-box-date"><i class="far fa-calendar"></i> 26 July 2018</div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-box wow fadeInLeft">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="blog-box-image">
+                                <img src="assets/img/blog/4.jpg" alt="" data-at2x="assets/img/blog/4.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <h3><a href="#">Minim veniam quis nostrud</a> <i class="fas fa-angle-right"></i></h3>
+                            <div class="blog-box-date"><i class="far fa-calendar"></i> 09 June 2018</div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <br><br><br><br><br><br>
+        
+        <!-- If you do not want an ad, then just comment all the "pop" div-->
+
+        <!-- <div class="pop">
+            <div class="ad">
+                <div class="close"><i class="fa fa-times-circle" style="font-size:30px;" onclick="func();"></i></div>
+                <h1> NEW BOARD!!!</h1>
+                <img src="assets/img/new_board.jpeg" alt="First ad" width="500px" height="500px">
+                <script type="text/javascript">
+                    function func()
+                    {
+                        document.querySelector('.pop').style.display = "none";
+                    }
+                </script>
+            </div>
+        </div> -->
+
+        <div class="add">
+            <i class="fa fa-plus-circle" style="font-size:50px;" onclick="func2();"></i>Add an article 
+                <script type="text/javascript">
+                    function func2()
+                    {
+                        alert("To add your article on this page, mail us your article\nat lakshya.tac@gmail.com")
+                    }                
+                </script>
+            </div>
+        </div>
+        <footer class="foot">
+            <div class="icons">
+                <ul>               
+                    <a href="https://www.facebook.com/agriclubmit/" target="_blank"><i class="fab fa-facebook-f"></i></a>               
+                    <a href="mailto:lakshya.tac@gmail.com"><i class="fas fa-envelope-square"></i></a>
+                    <a href="https://in.linkedin.com/company/lakshya-agriclub" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/lakshya.mit" target="_blank"><i class="fab fa-instagram"></i></a>
+                </ul>
+            </div>
+        <div>
+            <p>Copyright &copy; 
+                <script> document.write(new Date().getFullYear())</script>
+        </div>
+        </footer>
+    </body>
+
+<script type="text/javascript">
+    if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        alert("Open a Desktop site / in Landscape mode for the best experience.")
+}
+</script>
+
+<!--
+    Created By:
+    Ujwal Ramachandran - Technical & Research Head - 2020 ~ 2021
+-->
+</html>
